@@ -6,6 +6,12 @@ body {
 .flex {
   display: flex;
 }
+.aic {
+  align-items: center;
+}
+.jcc {
+  justify-content: center;
+}
 
 ul,
 ol {
@@ -21,6 +27,8 @@ h4,
 h5,
 h6 {
   font-weight: normal;
+  padding: 0;
+  margin: 0;
 }
 
 .fixed {
@@ -38,7 +46,16 @@ h6 {
 .c333 {
   color: #333;
 }
+.c777 {
+  color: #777;
+}
+.cfff {
+  color: #fff;
+}
 
+.s13 {
+  font-size: 13px;
+}
 .s15 {
   font-size: 15px;
 }
@@ -47,4 +64,8 @@ h6 {
 }
 .s24 {
   font-size: 24px;
+}
+
+.fontb {
+  font-weight: bold;
 }
