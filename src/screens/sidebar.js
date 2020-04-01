@@ -29,7 +29,7 @@ export default function Sidebar() {
     );
   }
   return (
-    <div className="sidebar fixed">
+    <div className="sidebar rel">
       <a href="#a" className="logo bl">
         <img src={logo} className="bl" alt="logo" />
       </a>

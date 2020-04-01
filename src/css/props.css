@@ -31,8 +31,19 @@ h6 {
   margin: 0;
 }
 
+button {
+  outline: none;
+  cursor: pointer;
+}
+
 .fixed {
   position: fixed;
+}
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
 }
 
 .bl {
@@ -68,4 +79,7 @@ h6 {
 
 .fontb {
   font-weight: bold;
+}
+.fontn {
+  font-weight: normal;
 }
